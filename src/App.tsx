@@ -1,8 +1,3 @@
-/**
- * Test
- * @constructor
- */
-
 function App() {
   return (
     <h1>
