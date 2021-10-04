@@ -3,6 +3,9 @@ import styled from 'styled-components';
 export const NoInvoicesWrapper = styled.div`
   width: 242px;
   height: 341px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   font-family: Spartan,serif;
   font-style: normal;
 `;

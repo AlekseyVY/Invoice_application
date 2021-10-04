@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { ReactComponent as NoInvoices } from '../../assets/noInvoices.svg';
 import { LogoText, NoInvoicesWrapper, SecText } from './invoicesRenderer.style';
 
+// TODO: invoice generation, fetching data from store, create story.
 export const InvoicesRenderer = () => {
   const [invoices, setInvoices] = useState(true);
 
