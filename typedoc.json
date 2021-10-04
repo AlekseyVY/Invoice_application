@@ -1,4 +1,0 @@
-{
-  "entryPoints": ["src/App.tsx"],
-  "out": "docs"
-}
