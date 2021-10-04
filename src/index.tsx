@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import 'normalize.css';
 import './styles/fonts.css';
+import './styles/globals.css';
 import App from './App';
 
 ReactDOM.render(

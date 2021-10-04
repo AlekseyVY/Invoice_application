@@ -1,10 +1,11 @@
-import { Button } from './components/button/Button';
+import { Container } from './app.style';
+import { InvoicesRenderer } from './components/invoicesRenderer/InvoicesRenderer';
 
 function App() {
   return (
-    <div>
-      <Button width={131} color="FFF" bgColor="7C5DFA" text="Default button" hoverBgColor="9277FF" hoverColor="FFF" />
-    </div>
+    <Container>
+      <InvoicesRenderer />
+    </Container>
   );
 }
 
