@@ -8,6 +8,10 @@ export const Container = styled.div`
   position: absolute;
   left: 0;
   top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
   border-radius: 0 20px 20px 0;
   background-color: #373B53;
 `;
@@ -19,4 +23,20 @@ export const SidebarLogoWrapper = styled.div`
   align-items: center;
   justify-content: center;
   background-image: url(${logoWrapper});
+`;
+
+export const MenuWrapper = styled.div`
+  width: 100%;
+  height: 117px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+`;
+
+export const Delimeter = styled.div`
+  width: 100%;
+  height: 1px;
+  background-color: #979797;
 `;
